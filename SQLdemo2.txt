@@ -1,0 +1,11 @@
+//How many users signed up in the month of July in 2016
+	
+	SELECT * FROM api_customer WHERE created_ts BETWEEN '2016-07-01' AND '2016-07-31';
+		//returns table with 78 rows
+
+
+
+
+
+
+

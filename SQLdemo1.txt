@@ -1,0 +1,10 @@
+//How many tickets have been canceled in the last year?
+	
+	SELECT COUNT(*) "name", description FROM api_transaction Where name = 'cancel_ticket' AND created_ts BETWEEN '2016-01-01' AND '2016-12-02'
+		//returns 1471
+
+
+
+
+
+
